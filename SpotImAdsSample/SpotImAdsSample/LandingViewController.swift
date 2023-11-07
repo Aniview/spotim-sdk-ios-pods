@@ -8,6 +8,9 @@
 
 import UIKit
 
+import UIKit
+import SpotImStandaloneAds
+
 final class LandingViewController: UIViewController {
 
     private lazy var stackView = {
@@ -18,30 +21,31 @@ final class LandingViewController: UIViewController {
         return stackView
     }()
 
-    private lazy var basicExampleButton = makeButton(title: "Basic Example")
-    private lazy var buttonTableExampleButton = makeButton(title: "Table View")
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let buttonBasicExample = makeButton(title: "Basic", action: #selector(onbasicExampleButtonTap))
+        let buttonTableExample = makeButton(title: "Table View", action: #selector(onTableExampleButtonTap))
+        let preloadButton = makeButton(title: "Preload", action: #selector(onPreloadButtonTap))
+
         view.addSubview(stackView)
-        view.backgroundColor = .systemBackground
         NSLayoutConstraint.activate([
             stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             stackView.widthAnchor.constraint(lessThanOrEqualTo: view.widthAnchor)
         ])
 
-        stackView.addArrangedSubview(basicExampleButton)
-        stackView.addArrangedSubview(buttonTableExampleButton)
+        stackView.addArrangedSubview(buttonBasicExample)
+        stackView.addArrangedSubview(buttonTableExample)
+        stackView.addArrangedSubview(preloadButton)
 
-        basicExampleButton.addTarget(self, action: #selector(onBasicExampleButtonTap), for: .touchUpInside)
-        buttonTableExampleButton.addTarget(self, action: #selector(onTableExampleButtonTap), for: .touchUpInside)
+        buttonBasicExample.addTarget(self, action: #selector(onbasicExampleButtonTap), for: .touchUpInside)
+        buttonTableExample.addTarget(self, action: #selector(onTableExampleButtonTap), for: .touchUpInside)
     }
 }
 
 private extension LandingViewController {
-    func makeButton(title: String) -> UIButton {
+    func makeButton(title: String, action: Selector) -> UIButton {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)
         button.setTitleColor(.white, for: .normal)
@@ -50,16 +54,25 @@ private extension LandingViewController {
         button.contentEdgeInsets = .init(top: 10, left: 30, bottom: 10, right: 30)
         button.layer.cornerRadius = 10
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: action, for: .touchUpInside)
         return button
     }
 
-    @objc private func onBasicExampleButtonTap() {
+    @objc func onbasicExampleButtonTap() {
         let viewController = BasicExampleVC()
         navigationController?.pushViewController(viewController, animated: true)
     }
 
-    @objc private func onTableExampleButtonTap() {
+    @objc func onTableExampleButtonTap() {
         let viewController = TableViewExampleVC()
         navigationController?.pushViewController(viewController, animated: true)
+    }
+
+    @objc func onPreloadButtonTap() {
+        SpotImAds.preload(
+            row: AppConstants.adSlot.row,
+            column: AppConstants.adSlot.column,
+            analyticsInfo: .init(url: "/home", postId: "")
+        )
     }
 }

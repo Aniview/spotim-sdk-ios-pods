@@ -257,7 +257,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SpotImAdsSample/Pods-SpotImAdsSample-resources.sh",
-				"${PODS_ROOT}/AdPlayerSDK/Frameworks/AdPlayerResources.bundle",
+				"${PODS_ROOT}/AdPlayerSDK/AdPlayerResources.bundle",
 				"${PODS_ROOT}/OpenWrapSDK/OpenWrapSDK/POBResources.bundle",
 				"${PODS_ROOT}/OpenWrapSDK/OpenWrapSDK/POBNativeResources.bundle",
 			);

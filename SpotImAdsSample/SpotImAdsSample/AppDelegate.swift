@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
 
         SpotImAds.initSDK(
-            spotId: "", // replace with your Spotim ID
+            spotId: "sp_1TUsBNAM", // replace with your Spotim ID
             storeURL: URL(string: "https://apps.apple.com/us/app/spotim-sample-app/id1234")! // Replace with your real storeURL
         )
 
