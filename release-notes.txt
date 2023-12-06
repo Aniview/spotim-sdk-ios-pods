@@ -1,0 +1,35 @@
+
+Hey team!
+new iOS version 0.2.16 is available on cocoa pods,
+
+Release notes:
+* added display ads auto-refresh
+* added content after google video ads support
+* added IntentIQ integration
+* added GeoEdge integration
+* added api to provide GDPR consent
+* fixed some analytics events
+
+To update:
+pod update
+# please ensure version 0.2.16 is installed
+
+[Important]
+In order to comply with EU user consent policy:
+1. Show user consent form
+2. Once the consent form returns result please call the following methods:
+```
+    SpotImAds.setGdprRequired(...)
+    SpotImAds.setGdprConsentString(consent: ...)
+```
+
+  If you use a CMP SDK that stores consent details in standard UserDefault keys:
+
+```
+let isGdprRequired = UserDefaults.standard.bool(forKey: "IABTCF_gdprApplies")
+SpotImAds.setGdprRequired(required: isGdprRequired)
+
+if isGdprRequired, let consent = UserDefaults.standard.string(forKey: "IABTCF_TCString") {
+    SpotImAds.setGdprConsentString(consent: consent)
+}
+```
