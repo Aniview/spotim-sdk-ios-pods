@@ -1,5 +1,5 @@
 PODS:
-  - AdPlayerSDK (1.8.0):
+  - AdPlayerSDK (1.8.1):
     - GoogleAds-IMA-iOS-SDK (~> 3.1)
     - RxSwift (~> 6.2)
     - Sentry (~> 8.1)
@@ -65,8 +65,8 @@ PODS:
   - Sentry/Core (8.17.1):
     - SentryPrivate (= 8.17.1)
   - SentryPrivate (8.17.1)
-  - SpotImStandaloneAds (0.2.16):
-    - AdPlayerSDK (>= 1.8.0)
+  - SpotImStandaloneAds (0.2.17):
+    - AdPlayerSDK (>= 1.8.1)
     - AppHarbrSDK (>= 1.9.4)
     - OpenWrapHandlerDFP
     - OpenWrapSDK
@@ -94,7 +94,7 @@ SPEC REPOS:
     - SpotImStandaloneAds
 
 SPEC CHECKSUMS:
-  AdPlayerSDK: 68cd8b0f5341c2cbc79cfadee0b4d9714ecb86ec
+  AdPlayerSDK: 60ae85b888a7f32b3cefaf49c8d9394f081f94f7
   AppHarbrSDK: 83385908c17cda071ae0d376b320b6c92f45a1e2
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
   GoogleAds-IMA-iOS-SDK: 0e817c05ab26f1b9285c80f4a75e1350a916d50b
@@ -108,7 +108,7 @@ SPEC CHECKSUMS:
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   Sentry: d9f99f9cc13777c5d938650c1e1c85047bb4f0d1
   SentryPrivate: 839b1e58addf58624087a80b2628e543193fa8ef
-  SpotImStandaloneAds: ab54a11c73cd2f2905c3d3df4084cf63d69df7ff
+  SpotImStandaloneAds: 9cef92efa37156975e8c56661a550d7eaaa7fc01
 
 PODFILE CHECKSUM: 005d9ecdc851518289e14b841721c1a4f6aa8e5b
 
