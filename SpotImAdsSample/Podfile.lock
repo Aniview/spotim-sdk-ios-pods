@@ -1,9 +1,7 @@
 PODS:
-  - AdPlayerSDK (1.8.1):
+  - AdPlayerSDK (1.9.1):
     - GoogleAds-IMA-iOS-SDK (~> 3.1)
-    - RxSwift (~> 6.2)
-    - Sentry (~> 8.1)
-  - AppHarbrSDK (1.9.4)
+  - AppHarbrSDK (1.10.0)
   - Google-Mobile-Ads-SDK (10.14.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
@@ -54,23 +52,15 @@ PODS:
   - OpenWrapHandlerDFP (4.0.0):
     - Google-Mobile-Ads-SDK (>= 8.12.0)
     - OpenWrapSDK (>= 3.0.0)
-  - OpenWrapSDK (3.2.0):
-    - OpenWrapSDK/OpenWrap (= 3.2.0)
-  - OpenWrapSDK/OpenWrap (3.2.0)
+  - OpenWrapSDK (3.3.0):
+    - OpenWrapSDK/OpenWrap (= 3.3.0)
+  - OpenWrapSDK/OpenWrap (3.3.0)
   - PromisesObjC (2.3.1)
-  - RxSwift (6.6.0)
-  - Sentry (8.17.1):
-    - Sentry/Core (= 8.17.1)
-    - SentryPrivate (= 8.17.1)
-  - Sentry/Core (8.17.1):
-    - SentryPrivate (= 8.17.1)
-  - SentryPrivate (8.17.1)
-  - SpotImStandaloneAds (0.2.17):
-    - AdPlayerSDK (>= 1.8.1)
+  - SpotImStandaloneAds (0.3.1):
+    - AdPlayerSDK (>= 1.9.1)
     - AppHarbrSDK (>= 1.9.4)
     - OpenWrapHandlerDFP
     - OpenWrapSDK
-    - Sentry
 
 DEPENDENCIES:
   - SpotImStandaloneAds
@@ -88,14 +78,11 @@ SPEC REPOS:
     - OpenWrapHandlerDFP
     - OpenWrapSDK
     - PromisesObjC
-    - RxSwift
-    - Sentry
-    - SentryPrivate
     - SpotImStandaloneAds
 
 SPEC CHECKSUMS:
-  AdPlayerSDK: 60ae85b888a7f32b3cefaf49c8d9394f081f94f7
-  AppHarbrSDK: 83385908c17cda071ae0d376b320b6c92f45a1e2
+  AdPlayerSDK: 23fec88dd994f50b0a71900ea25b2703a0a55ccb
+  AppHarbrSDK: 9962bc9ba5e3c939c56e2b440913e96e901ecf13
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
   GoogleAds-IMA-iOS-SDK: 0e817c05ab26f1b9285c80f4a75e1350a916d50b
   GoogleAppMeasurement: 68afe759316673c6554dac35a0c7ae8f5d6cb4ed
@@ -103,12 +90,9 @@ SPEC CHECKSUMS:
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   OpenWrapHandlerDFP: 4bc2dc8a98f38a6747e91871531134ecfee71ddf
-  OpenWrapSDK: 65e66abe3491e328c39eb16a695ae037ae47748e
+  OpenWrapSDK: 6c4d6c18c8be9aacb6e6859197806938a439c053
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
-  Sentry: d9f99f9cc13777c5d938650c1e1c85047bb4f0d1
-  SentryPrivate: 839b1e58addf58624087a80b2628e543193fa8ef
-  SpotImStandaloneAds: 9cef92efa37156975e8c56661a550d7eaaa7fc01
+  SpotImStandaloneAds: 5d93861c30fdce9c9451192a59f104d83f1adbbe
 
 PODFILE CHECKSUM: 005d9ecdc851518289e14b841721c1a4f6aa8e5b
 

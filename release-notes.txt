@@ -1,3 +1,18 @@
+0.3.1
+pod spec fix
+
+0.3.0
+* new parameter: rxProfile: { auto | combine | rxswift }
+* new parameter: useSentry: { true | false (default) } - crash monitoring is optional now
+* SizeSelegate: minor fixes
+* min AdPlayerSDK version updated (new AdPlayerSDK contains important fixes)
+* Sentry Crash monitoring is optional now
+
+0.2.18
+-----------------------------
+* SizeSelegate: minor fixes
+* min AdPlayerSDK version updated
+
 0.2.17
 -----------------------------
 * multiple sizes support
