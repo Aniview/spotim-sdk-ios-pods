@@ -1,3 +1,20 @@
+0.3.3
+* Added: New optional placement parameter "analyticsInfo":
+        let child = SpotImAds.makePlacement(
+            row: slot.row,
+            column: slot.column,
+            analyticsInfo: .init(url: "landing/uikit/basicExample", postId: "123")
+        )
+* Fixed: transparent background for display banner
+* Fixed: transparent background for display banner
+* Updated: new AdPlayer version >= 1.9.3. This AdPlayer contains set of fixes and improvements
+* Fixed: Analitics
+* Fixed: Geo-Edge SDK intergration. Required version was updated to >= 1.11.0
+
+0.3.2
+* AdPlayerSDK: "content video" bug fixed
+* min AdPlayerSDK version updated
+
 0.3.1
 pod spec fix
 

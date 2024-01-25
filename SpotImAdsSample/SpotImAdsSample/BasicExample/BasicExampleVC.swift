@@ -18,7 +18,11 @@ final class BasicExampleVC: UIViewController {
 
     private func addAdPlacement() {
         let slot = AppConstants.adSlot
-        let child = SpotImAds.makePlacement(row: slot.row, column: slot.column)
+        let child = SpotImAds.makePlacement(
+            row: slot.row,
+            column: slot.column,
+            analyticsInfo: .init(url: "landing/BasicExampleVC", postId: "123")
+        )
         addChild(child)
         child.view.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(child.view)

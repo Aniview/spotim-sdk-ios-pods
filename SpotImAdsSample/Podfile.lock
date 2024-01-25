@@ -1,26 +1,26 @@
 PODS:
-  - AdPlayerSDK (1.9.1):
+  - AdPlayerSDK (1.9.4):
     - GoogleAds-IMA-iOS-SDK (~> 3.1)
-  - AppHarbrSDK (1.10.0)
+  - AppHarbrSDK (1.11.0)
   - Google-Mobile-Ads-SDK (10.14.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAds-IMA-iOS-SDK (3.19.2)
-  - GoogleAppMeasurement (10.19.0):
-    - GoogleAppMeasurement/AdIdSupport (= 10.19.0)
+  - GoogleAppMeasurement (10.20.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.20.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (10.19.0):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.19.0)
+  - GoogleAppMeasurement/AdIdSupport (10.20.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.20.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (10.19.0):
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.20.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
@@ -56,14 +56,21 @@ PODS:
     - OpenWrapSDK/OpenWrap (= 3.3.0)
   - OpenWrapSDK/OpenWrap (3.3.0)
   - PromisesObjC (2.3.1)
-  - SpotImStandaloneAds (0.3.1):
-    - AdPlayerSDK (>= 1.9.1)
-    - AppHarbrSDK (>= 1.9.4)
+  - Sentry (8.19.0):
+    - Sentry/Core (= 8.19.0)
+    - SentryPrivate (= 8.19.0)
+  - Sentry/Core (8.19.0):
+    - SentryPrivate (= 8.19.0)
+  - SentryPrivate (8.19.0)
+  - SpotImStandaloneAds/Sources (0.3.2):
+    - AdPlayerSDK (>= 1.9.3)
+    - AppHarbrSDK (>= 1.11.0)
     - OpenWrapHandlerDFP
     - OpenWrapSDK
+    - Sentry
 
 DEPENDENCIES:
-  - SpotImStandaloneAds
+  - SpotImStandaloneAds/Sources (from `/Users/pavelyevtukhov/develop/spotim-sdk-kmm/iOS`)
 
 SPEC REPOS:
   trunk:
@@ -78,22 +85,29 @@ SPEC REPOS:
     - OpenWrapHandlerDFP
     - OpenWrapSDK
     - PromisesObjC
-    - SpotImStandaloneAds
+    - Sentry
+    - SentryPrivate
+
+EXTERNAL SOURCES:
+  SpotImStandaloneAds:
+    :path: "/Users/pavelyevtukhov/develop/spotim-sdk-kmm/iOS"
 
 SPEC CHECKSUMS:
-  AdPlayerSDK: 23fec88dd994f50b0a71900ea25b2703a0a55ccb
-  AppHarbrSDK: 9962bc9ba5e3c939c56e2b440913e96e901ecf13
+  AdPlayerSDK: 00fd6586e1c7a1beda881be29335b846c6ba72e3
+  AppHarbrSDK: ef6bccc6af92861f7d43d9146abc710706c4a0ba
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
   GoogleAds-IMA-iOS-SDK: 0e817c05ab26f1b9285c80f4a75e1350a916d50b
-  GoogleAppMeasurement: 68afe759316673c6554dac35a0c7ae8f5d6cb4ed
+  GoogleAppMeasurement: bb3c564c3efb933136af0e94899e0a46167466a8
   GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   OpenWrapHandlerDFP: 4bc2dc8a98f38a6747e91871531134ecfee71ddf
   OpenWrapSDK: 6c4d6c18c8be9aacb6e6859197806938a439c053
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  SpotImStandaloneAds: 5d93861c30fdce9c9451192a59f104d83f1adbbe
+  Sentry: 1ebcaef678a27c8ac515f974cb5425dd1bbdec2f
+  SentryPrivate: 765c9b4ebe9ac1a5fcdc067c5a1cfbf3f10e1677
+  SpotImStandaloneAds: 998e0405df6e78bf9966204bf9a85d0c0f2d03db
 
-PODFILE CHECKSUM: 005d9ecdc851518289e14b841721c1a4f6aa8e5b
+PODFILE CHECKSUM: bf81d2c02d87b119b50de03a697ec7bdf89de0ed
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.14.3
