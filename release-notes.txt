@@ -1,3 +1,7 @@
+0.3.4
+* Handle placement visibility
+* Fixed: performance issues
+
 0.3.3
 * Added: New optional placement parameter "analyticsInfo":
         let child = SpotImAds.makePlacement(

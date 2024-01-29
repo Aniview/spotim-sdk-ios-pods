@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         SpotImAds.initSDK(
             spotId: "sp_1TUsBNAM", // replace with your Spotim ID
-            storeURL: URL(string: "https://apps.apple.com/us/app/spotim-sample-app/id1234")!
+            storeURL: URL(string: "https://apps.apple.com/us/app/spotim-sample-app/id1234")!, rxProfile: .combine
         )
 
         window?.rootViewController = UINavigationController(rootViewController: LandingViewController())

@@ -1,5 +1,5 @@
 PODS:
-  - AdPlayerSDK (1.9.4):
+  - AdPlayerSDK (1.9.5):
     - GoogleAds-IMA-iOS-SDK (~> 3.1)
   - AppHarbrSDK (1.11.0)
   - Google-Mobile-Ads-SDK (10.14.0):
@@ -56,21 +56,16 @@ PODS:
     - OpenWrapSDK/OpenWrap (= 3.3.0)
   - OpenWrapSDK/OpenWrap (3.3.0)
   - PromisesObjC (2.3.1)
-  - Sentry (8.19.0):
-    - Sentry/Core (= 8.19.0)
-    - SentryPrivate (= 8.19.0)
-  - Sentry/Core (8.19.0):
-    - SentryPrivate (= 8.19.0)
-  - SentryPrivate (8.19.0)
-  - SpotImStandaloneAds/Sources (0.3.2):
-    - AdPlayerSDK (>= 1.9.3)
+  - RxSwift (6.6.0)
+  - SpotImStandaloneAds (0.3.4):
+    - AdPlayerSDK (>= 1.9.5)
     - AppHarbrSDK (>= 1.11.0)
     - OpenWrapHandlerDFP
     - OpenWrapSDK
-    - Sentry
 
 DEPENDENCIES:
-  - SpotImStandaloneAds/Sources (from `/Users/pavelyevtukhov/develop/spotim-sdk-kmm/iOS`)
+  - RxSwift
+  - SpotImStandaloneAds (= 0.3.4)
 
 SPEC REPOS:
   trunk:
@@ -85,15 +80,11 @@ SPEC REPOS:
     - OpenWrapHandlerDFP
     - OpenWrapSDK
     - PromisesObjC
-    - Sentry
-    - SentryPrivate
-
-EXTERNAL SOURCES:
-  SpotImStandaloneAds:
-    :path: "/Users/pavelyevtukhov/develop/spotim-sdk-kmm/iOS"
+    - RxSwift
+    - SpotImStandaloneAds
 
 SPEC CHECKSUMS:
-  AdPlayerSDK: 00fd6586e1c7a1beda881be29335b846c6ba72e3
+  AdPlayerSDK: 5b8a2f1654ff3a8a33933cf47763dc93bb86ba16
   AppHarbrSDK: ef6bccc6af92861f7d43d9146abc710706c4a0ba
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
   GoogleAds-IMA-iOS-SDK: 0e817c05ab26f1b9285c80f4a75e1350a916d50b
@@ -104,10 +95,9 @@ SPEC CHECKSUMS:
   OpenWrapHandlerDFP: 4bc2dc8a98f38a6747e91871531134ecfee71ddf
   OpenWrapSDK: 6c4d6c18c8be9aacb6e6859197806938a439c053
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  Sentry: 1ebcaef678a27c8ac515f974cb5425dd1bbdec2f
-  SentryPrivate: 765c9b4ebe9ac1a5fcdc067c5a1cfbf3f10e1677
-  SpotImStandaloneAds: 998e0405df6e78bf9966204bf9a85d0c0f2d03db
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SpotImStandaloneAds: 6bfa5d89497964f50435cd0780f1615f59e3b5a9
 
-PODFILE CHECKSUM: bf81d2c02d87b119b50de03a697ec7bdf89de0ed
+PODFILE CHECKSUM: 89295d34966b914dfda5de276e19d8560666d696
 
 COCOAPODS: 1.14.3
