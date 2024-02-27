@@ -1,3 +1,9 @@
+0.3.5
+* Fixed: podspec dependencies
+* Fixed: crash in PubmaticDisplayAd::bannerViewPresentationController
+* Updated: OpenWrap, AdPlayer versions
+* Updated: Analytics
+
 0.3.4
 * Handle placement visibility
 * Fixed: performance issues
