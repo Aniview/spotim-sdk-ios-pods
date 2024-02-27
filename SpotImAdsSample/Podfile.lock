@@ -1,32 +1,32 @@
 PODS:
-  - AdPlayerSDK (1.9.5):
+  - AdPlayerSDK (1.9.8):
     - GoogleAds-IMA-iOS-SDK (~> 3.1)
   - AppHarbrSDK (1.11.0)
   - Google-Mobile-Ads-SDK (10.14.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAds-IMA-iOS-SDK (3.19.2)
-  - GoogleAppMeasurement (10.20.0):
-    - GoogleAppMeasurement/AdIdSupport (= 10.20.0)
+  - GoogleAds-IMA-iOS-SDK (3.20.0)
+  - GoogleAppMeasurement (10.21.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.21.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (10.20.0):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.20.0)
+  - GoogleAppMeasurement/AdIdSupport (10.21.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.21.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (10.20.0):
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.21.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleUserMessagingPlatform (2.1.0)
+  - GoogleUserMessagingPlatform (2.2.0)
   - GoogleUtilities/AppDelegateSwizzler (7.12.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -52,20 +52,18 @@ PODS:
   - OpenWrapHandlerDFP (4.0.0):
     - Google-Mobile-Ads-SDK (>= 8.12.0)
     - OpenWrapSDK (>= 3.0.0)
-  - OpenWrapSDK (3.3.0):
-    - OpenWrapSDK/OpenWrap (= 3.3.0)
-  - OpenWrapSDK/OpenWrap (3.3.0)
-  - PromisesObjC (2.3.1)
-  - RxSwift (6.6.0)
-  - SpotImStandaloneAds (0.3.4):
-    - AdPlayerSDK (>= 1.9.5)
-    - AppHarbrSDK (>= 1.11.0)
-    - OpenWrapHandlerDFP
-    - OpenWrapSDK
+  - OpenWrapSDK (3.4.0):
+    - OpenWrapSDK/OpenWrap (= 3.4.0)
+  - OpenWrapSDK/OpenWrap (3.4.0)
+  - PromisesObjC (2.4.0)
+  - SpotImStandaloneAds (0.3.5):
+    - AdPlayerSDK (= 1.9.8)
+    - AppHarbrSDK (~> 1.11.0)
+    - Google-Mobile-Ads-SDK (~> 10.0)
+    - OpenWrapHandlerDFP (= 4.0.0)
 
 DEPENDENCIES:
-  - RxSwift
-  - SpotImStandaloneAds (= 0.3.4)
+  - SpotImStandaloneAds (= 0.3.5)
 
 SPEC REPOS:
   trunk:
@@ -80,24 +78,22 @@ SPEC REPOS:
     - OpenWrapHandlerDFP
     - OpenWrapSDK
     - PromisesObjC
-    - RxSwift
     - SpotImStandaloneAds
 
 SPEC CHECKSUMS:
-  AdPlayerSDK: 5b8a2f1654ff3a8a33933cf47763dc93bb86ba16
+  AdPlayerSDK: 157a05c309d2463b5ed8cc60ca292af50d930db6
   AppHarbrSDK: ef6bccc6af92861f7d43d9146abc710706c4a0ba
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
-  GoogleAds-IMA-iOS-SDK: 0e817c05ab26f1b9285c80f4a75e1350a916d50b
-  GoogleAppMeasurement: bb3c564c3efb933136af0e94899e0a46167466a8
-  GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
+  GoogleAds-IMA-iOS-SDK: f9a6bd69e34f6c3a2d6b2f7cd56814b78fc680f9
+  GoogleAppMeasurement: a65314d316443969ed3d3709b3a187448ed6418f
+  GoogleUserMessagingPlatform: d31dbfb40ec02c5d9683029815c5d5a7f46389ee
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   OpenWrapHandlerDFP: 4bc2dc8a98f38a6747e91871531134ecfee71ddf
-  OpenWrapSDK: 6c4d6c18c8be9aacb6e6859197806938a439c053
-  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
-  SpotImStandaloneAds: 6bfa5d89497964f50435cd0780f1615f59e3b5a9
+  OpenWrapSDK: 9b395095da1660ea02c221e16a7290b74ba2e7c3
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  SpotImStandaloneAds: cab111ef275bbc0c64c4c94797784ec6510b7ea5
 
-PODFILE CHECKSUM: 89295d34966b914dfda5de276e19d8560666d696
+PODFILE CHECKSUM: 9a0da9b12d0cd22d43007f8a5901266d61ea5ccf
 
 COCOAPODS: 1.14.3

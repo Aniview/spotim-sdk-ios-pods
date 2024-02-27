@@ -72,7 +72,7 @@ private extension LandingViewController {
         SpotImAds.preload(
             row: AppConstants.adSlot.row,
             column: AppConstants.adSlot.column,
-            analyticsInfo: .init(url: "/home", postId: "")
+            analyticsInfo: .init(url: "/home", postId: "", userId: "")
         )
     }
 }
