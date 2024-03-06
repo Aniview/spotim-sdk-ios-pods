@@ -229,9 +229,17 @@
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AdPlayerSDK/AdPlayerSDK.framework/AdPlayerSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppHarbrSDK/AppHarbrSDK.framework/AppHarbrSDK",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework/GoogleInteractiveMediaAds",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MobileFuseSDK/MobileFuseSDK.framework/MobileFuseSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusCoreKit/NimbusCoreKit.framework/NimbusCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusKit/NimbusKit.framework/NimbusKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusKit/NimbusMobileFuseKit.framework/NimbusMobileFuseKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusRenderKit/NimbusRenderKit.framework/NimbusRenderKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusRenderKit/OMSDK_Adsbynimbus.framework/OMSDK_Adsbynimbus",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusRenderStaticKit/NimbusRenderStaticKit.framework/NimbusRenderStaticKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusRenderVideoKit/NimbusRenderVideoKit.framework/NimbusRenderVideoKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NimbusSDK/NimbusRequestKit/NimbusRequestKit.framework/NimbusRequestKit",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenWrapSDK/OpenWrap/OMSDK_Pubmatic.framework/OMSDK_Pubmatic",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SpotImStandaloneAds/KmmSpotimStandaloneAd.framework/KmmSpotimStandaloneAd",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SpotImStandaloneAds/SpotImStandaloneAdsDynamic.framework/SpotImStandaloneAdsDynamic",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -241,9 +249,17 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdPlayerSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppHarbrSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileFuseSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusMobileFuseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusRenderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMSDK_Adsbynimbus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusRenderStaticKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusRenderVideoKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NimbusRequestKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMSDK_Pubmatic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KmmSpotimStandaloneAd.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpotImStandaloneAdsDynamic.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
