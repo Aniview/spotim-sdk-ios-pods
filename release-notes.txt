@@ -1,3 +1,12 @@
+1.0.2
+* the framework was rebuilt with XCode 15.3, Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+* FIX: 'underlying module not found'
+    The App using the SDK won't build, when:
+    * cocoa Pods: Podfile without 'use_frameworks!'
+
+1.0.1
+podspec updated: ApPlayerSDK version bump
+
 1.0.0
 * Nimbus integration
 * analytics improvements

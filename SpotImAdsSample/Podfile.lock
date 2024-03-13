@@ -1,5 +1,5 @@
 PODS:
-  - AdPlayerSDK (1.10.2):
+  - AdPlayerSDK (1.10.4):
     - GoogleAds-IMA-iOS-SDK (~> 3.1)
   - AppHarbrSDK (1.11.0)
   - Google-Mobile-Ads-SDK (10.14.0):
@@ -52,30 +52,32 @@ PODS:
   - GoogleUtilities/Reachability (7.13.0):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - MobileFuseSDK (1.7.1)
+  - MobileFuseSDK (1.7.3)
   - nanopb (2.30910.0):
     - nanopb/decode (= 2.30910.0)
     - nanopb/encode (= 2.30910.0)
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
-  - NimbusSDK/NimbusCoreKit (2.19.1)
-  - NimbusSDK/NimbusGAMKit (2.19.1):
+  - NimbusSDK (2.20.0):
+    - NimbusSDK/NimbusKit (= 2.20.0)
+  - NimbusSDK/NimbusCoreKit (2.20.0)
+  - NimbusSDK/NimbusGAMKit (2.20.0):
     - Google-Mobile-Ads-SDK (>= 9.0.0)
     - NimbusSDK/NimbusKit
-  - NimbusSDK/NimbusKit (2.19.1):
+  - NimbusSDK/NimbusKit (2.20.0):
     - MobileFuseSDK (~> 1.7)
     - NimbusSDK/NimbusRenderKit
     - NimbusSDK/NimbusRenderStaticKit
     - NimbusSDK/NimbusRenderVideoKit
     - NimbusSDK/NimbusRequestKit
-  - NimbusSDK/NimbusRenderKit (2.19.1):
+  - NimbusSDK/NimbusRenderKit (2.20.0):
     - NimbusSDK/NimbusCoreKit
-  - NimbusSDK/NimbusRenderStaticKit (2.19.1):
+  - NimbusSDK/NimbusRenderStaticKit (2.20.0):
     - NimbusSDK/NimbusRenderKit
-  - NimbusSDK/NimbusRenderVideoKit (2.19.1):
+  - NimbusSDK/NimbusRenderVideoKit (2.20.0):
     - GoogleAds-IMA-iOS-SDK (>= 3.18.4)
     - NimbusSDK/NimbusRenderKit
-  - NimbusSDK/NimbusRequestKit (2.19.1):
+  - NimbusSDK/NimbusRequestKit (2.20.0):
     - NimbusSDK/NimbusCoreKit
   - OpenWrapHandlerDFP (4.0.0):
     - Google-Mobile-Ads-SDK (>= 8.12.0)
@@ -84,18 +86,19 @@ PODS:
     - OpenWrapSDK/OpenWrap (= 3.4.1)
   - OpenWrapSDK/OpenWrap (3.4.1)
   - PromisesObjC (2.4.0)
-  - SpotImStandaloneAds (1.0.0):
-    - AdPlayerSDK (= 1.10.2)
+  - SpotImStandaloneAds (1.0.2):
+    - AdPlayerSDK (= 1.10.4)
     - AppHarbrSDK (~> 1.11.0)
     - Google-Mobile-Ads-SDK (~> 10.0)
-    - NimbusSDK/NimbusGAMKit (~> 2.19.1)
-    - NimbusSDK/NimbusKit (~> 2.19.1)
-    - NimbusSDK/NimbusRenderStaticKit (~> 2.19.1)
+    - NimbusSDK (~> 2.20.0)
+    - NimbusSDK/NimbusGAMKit
+    - NimbusSDK/NimbusKit
+    - NimbusSDK/NimbusRenderStaticKit
     - OpenWrapHandlerDFP (= 4.0.0)
     - OpenWrapSDK (= 3.4.1)
 
 DEPENDENCIES:
-  - SpotImStandaloneAds (= 1.0.0)
+  - SpotImStandaloneAds (= 1.0.2)
 
 SPEC REPOS:
   trunk:
@@ -115,21 +118,21 @@ SPEC REPOS:
     - SpotImStandaloneAds
 
 SPEC CHECKSUMS:
-  AdPlayerSDK: e56fdce50b146d5e8c0437b7ec8a0b7776bdb1e7
+  AdPlayerSDK: dd6d808b892b4e963c580f2a871c315bd1e3eeed
   AppHarbrSDK: ef6bccc6af92861f7d43d9146abc710706c4a0ba
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
   GoogleAds-IMA-iOS-SDK: f9a6bd69e34f6c3a2d6b2f7cd56814b78fc680f9
   GoogleAppMeasurement: ccefe3eac9b0aa27f96066809fb1a7fe4b462626
   GoogleUserMessagingPlatform: d31dbfb40ec02c5d9683029815c5d5a7f46389ee
   GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
-  MobileFuseSDK: 976c01e98795b8de6ecd46ba1d6214886adc7446
+  MobileFuseSDK: faf54c2e5b6b7c2c552aa76b817ae1e13c24a58b
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
-  NimbusSDK: f6741a2452e43bda1ad9771db6518266a174822f
+  NimbusSDK: 068e10068f77b37920f0262bd336ff7652ae4e01
   OpenWrapHandlerDFP: 4bc2dc8a98f38a6747e91871531134ecfee71ddf
   OpenWrapSDK: f5c6cdb00230e69362d18367e17f712160d55d37
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  SpotImStandaloneAds: 3c2ec0219693361600e23b55835cb50475db4b76
+  SpotImStandaloneAds: 3d74d6a47a8bf60d8842f56b0832beda6fed9e27
 
-PODFILE CHECKSUM: e5d4cdfd3de7ccdfd7cc438fad06d41c707bde29
+PODFILE CHECKSUM: 877cfc618afa78a2da7def7cc9e4742b87b174fb
 
 COCOAPODS: 1.14.3
