@@ -13,6 +13,9 @@ podspec updated: ApPlayerSDK version bump
 * minor fixes
 
 0.3.5
+* API removed:
+  setGdprRequired, setGdprConsentString
+  It's no longer needed, provided NSUserDefaults keys IABTCF_gdprApplies, IABTCF_TCString are set
 * Fixed: podspec dependencies
 * Fixed: crash in PubmaticDisplayAd::bannerViewPresentationController
 * Updated: OpenWrap, AdPlayer versions
