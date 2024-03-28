@@ -10,6 +10,8 @@ import SpotImStandaloneAds
 
 enum AppConstants {
     static let adSlot = AdSlot(row: 1, column: 1)
+    static let spotId = "sp_1TUsBNAM"
+    static let storeURL = "https://apps.apple.com/us/app/spotim-sample-app/id1234"
 }
 
 // swiftlint:disable line_length
