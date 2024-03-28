@@ -1,3 +1,8 @@
+1.0.3
+Update: AdPlayerSDK 1.10.5
+* Fix: Nimbus Ads: add missing custom parameters
+* Fix: "deprecated" warning for NimbusDynamicPriceRenderer in NimbusDisplayAd
+
 1.0.2
 * the framework was rebuilt with XCode 15.3, Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 * FIX: 'underlying module not found'
