@@ -1,3 +1,6 @@
+1.0.4
+Update: AdPlayerSDK 1.10.6 (cpu spike fix)
+
 1.0.3
 Update: AdPlayerSDK 1.10.5
 * Fix: Nimbus Ads: add missing custom parameters

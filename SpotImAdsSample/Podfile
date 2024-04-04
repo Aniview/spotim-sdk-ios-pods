@@ -2,7 +2,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'SpotImAdsSample' do
-  pod 'SpotImStandaloneAds', '1.0.3'
+  pod 'SpotImStandaloneAds', '1.0.4'
 
   # uncomment the following if you are using RxSwift (iOS < 13.0)
   #pod 'RxSwift'
