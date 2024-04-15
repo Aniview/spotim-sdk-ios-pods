@@ -5,22 +5,22 @@ PODS:
   - Google-Mobile-Ads-SDK (10.14.0):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAds-IMA-iOS-SDK (3.20.0)
-  - GoogleAppMeasurement (10.23.1):
-    - GoogleAppMeasurement/AdIdSupport (= 10.23.1)
+  - GoogleAds-IMA-iOS-SDK (3.22.0)
+  - GoogleAppMeasurement (10.24.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.24.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (10.23.1):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.23.1)
+  - GoogleAppMeasurement/AdIdSupport (10.24.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.24.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30911.0, >= 2.30908.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (10.23.1):
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.24.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
     - GoogleUtilities/MethodSwizzler (~> 7.11)
     - GoogleUtilities/Network (~> 7.11)
@@ -86,7 +86,7 @@ PODS:
     - OpenWrapSDK/OpenWrap (= 3.4.1)
   - OpenWrapSDK/OpenWrap (3.4.1)
   - PromisesObjC (2.4.0)
-  - SpotImStandaloneAds (1.0.4):
+  - SpotImStandaloneAds (1.0.5):
     - AdPlayerSDK (= 1.10.6)
     - AppHarbrSDK (~> 1.11.0)
     - Google-Mobile-Ads-SDK (~> 10.0)
@@ -98,7 +98,7 @@ PODS:
     - OpenWrapSDK (= 3.4.1)
 
 DEPENDENCIES:
-  - SpotImStandaloneAds (= 1.0.4)
+  - SpotImStandaloneAds (= 1.0.5)
 
 SPEC REPOS:
   trunk:
@@ -121,8 +121,8 @@ SPEC CHECKSUMS:
   AdPlayerSDK: 97e2f00b810e6cc41f26a905c9d5473225976edf
   AppHarbrSDK: ef6bccc6af92861f7d43d9146abc710706c4a0ba
   Google-Mobile-Ads-SDK: 8f67a72f88d057335b1ac3f501e2b68ad054116e
-  GoogleAds-IMA-iOS-SDK: f9a6bd69e34f6c3a2d6b2f7cd56814b78fc680f9
-  GoogleAppMeasurement: 794d1d2f71fdf77a077a3986258a5c2dac0f9d48
+  GoogleAds-IMA-iOS-SDK: e594350077f2838a335b40de079a12f0a16e1f6d
+  GoogleAppMeasurement: f3abf08495ef2cba7829f15318c373b8d9226491
   GoogleUserMessagingPlatform: b1ad7bb1ee3ce64749d4fec24f667b36e45c396c
   GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
   MobileFuseSDK: faf54c2e5b6b7c2c552aa76b817ae1e13c24a58b
@@ -131,8 +131,8 @@ SPEC CHECKSUMS:
   OpenWrapHandlerDFP: 4bc2dc8a98f38a6747e91871531134ecfee71ddf
   OpenWrapSDK: f5c6cdb00230e69362d18367e17f712160d55d37
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  SpotImStandaloneAds: a45d4b77eb8126b057a1d3266787c18c9263fbff
+  SpotImStandaloneAds: f27b1169aeaae65ae3fc160c0f414a263f7804e0
 
-PODFILE CHECKSUM: d6684f3ef3cd2e2ebb10d9cefbc2429daaf82bec
+PODFILE CHECKSUM: 2d07346294f14a81697327cdf49ffa201cb45525
 
 COCOAPODS: 1.14.3

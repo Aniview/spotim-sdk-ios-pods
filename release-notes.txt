@@ -1,3 +1,11 @@
+1.0.5
+* Added: SDK setup runtime validation
+ BUILD_LIBRARY_FOR_DISTRIBUTION for NimbusSDK
+* Fixed: crashes related to NimbusSDK:
+  e.g: NimbusDisplayAd.__ivar_destroyer,  NimbusGAMLinearPriceGranularity.getKeywords, etc
+* Fixed: NimbusDisplayAd sets a random "na_bid" to gamRequest.customTargeting
+* Fixed: Nimbus provider excessively reloads GAM banner
+
 1.0.4
 Update: AdPlayerSDK 1.10.6 (cpu spike fix)
 
